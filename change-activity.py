@@ -11,3 +11,6 @@ bot = commands.Bot(command_prefix = '.', help_command=None, intents = intents)
 @bot.event
 async def on_ready():
     await bot.change_presence(status=discord.Status.online, activity=discord.Game('your activity'))
+   
+#run
+bot.run('your token')
